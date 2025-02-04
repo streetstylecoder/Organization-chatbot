@@ -15,7 +15,7 @@ client = AzureOpenAI(
 )
 
 # Streamlit App Layout
-st.title("Chat with AI Assistant")
+st.title("LetsAI copilot")
 
 # Initialize session state for messages if not already present
 if 'messages' not in st.session_state:
